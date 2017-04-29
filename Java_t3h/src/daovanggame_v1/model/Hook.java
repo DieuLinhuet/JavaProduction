@@ -6,8 +6,6 @@ import daovanggame_v1.Constant;
 import javax.swing.*;
 import java.awt.*;
 
-import static daovanggame_v1.Constant.SIZE_ITEM;
-
 /**
  * Created by DieuLinh on 21-Apr-17.
  */
@@ -24,12 +22,12 @@ public class Hook extends Object2D implements Constant {
     private boolean finish; // true: ket thuc mot qua trinh tha-keo hook
 
     public Hook(int x, int y) {
-        rope = new Rope(x, y, x, y);
         image = IMG_HOOK;
         sizeImg = SIZE_HOOK;
-        this.x = x;
-        this.y = y;
-        theta = 0;
+        rope = new Rope(x, y, x, y + 2 * sizeImg);
+        this.x = x - sizeImg / 2;
+        this.y = y + 2 * sizeImg;
+        theta = 30;
     }
 
     public boolean isFinish() {
@@ -69,25 +67,35 @@ public class Hook extends Object2D implements Constant {
             return;
         }
         if (isCheckTheta) {
-            theta -= 1;
-            if (theta == -80) {
+            theta += 1;
+            if (theta == 80) {
                 isCheckTheta = false;
             }
         } else {
-            theta += 1;
-            if (theta == 70) {
+            theta -= 1;
+            if (theta == -80) {
                 isCheckTheta = true;
             }
         }
         this.x = x - sizeImg / 2;
-        this.y = y + sizeImg;
+        this.y = y + 2 * sizeImg;
         rope.setY1(this.y);
-
     }
 
     public void releaseHook(long time, ItemMap[][] itemMaps) {
         if (isRetrun) {
             pullRope(time);
+        }
+        int x, y;
+        if (theta > 0) {
+            x = (int) (rope.getX0() - (this.y - rope.getY0()) * Math.sin(Math.toRadians(theta)));
+            y = (int) (rope.getY0() + (this.y - rope.getY0()) * Math.cos(Math.toRadians(theta)));
+        } else if (theta < 0) {
+            x = (int) (rope.getX0() + (this.y - rope.getY0()) * Math.sin(Math.toRadians(-theta)));
+            y = (int) (rope.getY0() + (this.y - rope.getY0()) * Math.cos(Math.toRadians(-theta)));
+        } else {
+            x = rope.getX0();
+            y = this.y;
         }
         if (x < 0 || x > WIDTH_FRAME || y > HEIGHT_FRAME) {
             isRelease = false;
@@ -100,15 +108,15 @@ public class Hook extends Object2D implements Constant {
         if (time % 5 != 0) {
             return;
         }
-        speed = 2;
-        y += speed;
+        speed = 5;
+        this.y += speed;
         rope.setY1(this.y);
 
         ItemMap itemMap = interaction(itemMaps);
         if (itemMap != null) {
             image = changeImage(itemMaps);
             sizeImg = itemMap.sizeImg;
-            x = rope.getX0() - sizeImg / 2;
+            this.x = rope.getX0() - sizeImg / 2;
             isRelease = false;
             isRetrun = true;
             pullRope(time);
@@ -130,13 +138,123 @@ public class Hook extends Object2D implements Constant {
 //        if (time % 3 != 0){
 //            return;
 //        }
-        y -= 5;
+        y -= 10;
         rope.setY1(this.y);
     }
 
     //    Kiem tra va cham, neu va cham tra ve doi tuong bi va cham voi hook
     private ItemMap interaction(ItemMap[][] itemMaps) {
+        return interactionTop(itemMaps);
+    }
 
+    private ItemMap interactionLeftAndRight(ItemMap[][] itemMaps) {
+        int x1, x2, y1, y2;
+        int row1, row2, col;
+        ItemMap itemMap;
+        if (theta > 0) {
+            x2 = (int) (rope.getX0() - (y - rope.getY0()) * Math.sin(Math.toRadians(theta)));
+            y2 = (int) (rope.getY0() + (y - rope.getY0()) * Math.cos(Math.toRadians(theta)));
+
+            x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(theta)));
+            y1 = (int) (y2 + sizeImg * Math.sin(Math.toRadians(theta)));
+        } else if (theta < 0) {
+            x1 = (int) (rope.getX0() + (y + sizeImg - rope.getY0()) * Math.sin(Math.toRadians(-theta)));
+            y1 = (int) (rope.getY0() + (y + sizeImg - rope.getY0()) * Math.cos(Math.toRadians(-theta)));
+
+            x2 = (int) (x1 + sizeImg * Math.cos(Math.toRadians(-theta)));
+            y2 = (int) (y1 - sizeImg * Math.sin(Math.toRadians(-theta)));
+        } else {
+            x1 = rope.getX0();
+            x2 = x1 + sizeImg;
+            y2 = this.y + sizeImg;
+        }
+
+        row1 = x2 / SIZE_ITEM;
+        row2 = (x2 + 6 * SIZE_ITEM) / SIZE_ITEM;
+        col = x2 / SIZE_ITEM;
+
+        if (col < 0 || col > NUM_COL) {
+            return null;
+        }
+        if (row2 >= NUM_ROW - 6) {
+            for (int i = NUM_ROW - 6; i <= NUM_ROW - 1; i++) {
+                itemMap = itemMaps[i][col];
+                if (itemMap != null) {
+                    if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                        return itemMap;
+                    }
+                }
+            }
+        } else {
+            return null;
+        }
+        for (int i = row1; i <= row2; i++) {
+            itemMap = itemMaps[i][col];
+            if (itemMap != null) {
+                if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + sizeImg) {
+                    return itemMap;
+                }
+            }
+        }
+        return null;
+    }
+
+
+    private ItemMap interactionTop(ItemMap[][] itemMaps) {
+        int x1, y1, x2, y2;
+        int col1, col2, row;
+        ItemMap itemMap;
+        if (theta > 0) {
+            x2 = (int) (rope.getX0() - (y - rope.getY0()) * Math.sin(Math.toRadians(theta)));
+            y2 = (int) (rope.getY0() + (y - rope.getY0()) * Math.cos(Math.toRadians(theta)));
+
+            x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(theta)));
+            y1 = (int) (y2 + sizeImg * Math.sin(Math.toRadians(theta)));
+        } else if (theta < 0) {
+            x1 = (int) (rope.getX0() + (y + sizeImg - rope.getY0()) * Math.sin(Math.toRadians(-theta)));
+            y1 = (int) (rope.getY0() + (y + sizeImg - rope.getY0()) * Math.cos(Math.toRadians(-theta)));
+
+            x2 = (int) (x1 + sizeImg * Math.cos(Math.toRadians(-theta)));
+            y2 = (int) (y1 - sizeImg * Math.sin(Math.toRadians(-theta)));
+        } else {
+            x1 = rope.getX0();
+            x2 = x1 + sizeImg;
+            y1 = this.y + sizeImg;
+        }
+
+        col1 = (x1 - 6 * SIZE_ITEM) / SIZE_ITEM;
+        col2 = x2 / SIZE_ITEM;
+        row = y1 / SIZE_ITEM;
+
+        if (col2 > NUM_COL || row > NUM_ROW) {
+            return null;
+        }
+        if (col1 <= 6 || col2 <= 6) {
+            for (int j = 0; j <= 6; j++) {
+                itemMap = itemMaps[row][j];
+                if (itemMap != null) {
+                    if (x1 >= itemMap.getX() && x1 <= itemMap.getX() + itemMap.sizeImg) {
+                        return itemMap;
+                    }
+                    if (x2 >= itemMap.getX() && x2 <= itemMap.getX() + itemMap.sizeImg) {
+                        return itemMap;
+                    }
+                }
+            }
+        } else {
+            return null;
+        }
+        for (int i = col1; i <= col2; i++) {
+            itemMap = itemMaps[row][i];
+            if (itemMap != null) {
+                if (x1 >= itemMap.getX() && x1 <= itemMap.getX() + itemMap.sizeImg) {
+                    return itemMap;
+                }
+                if (x2 >= itemMap.getX() && x2 <= itemMap.getX() + itemMap.sizeImg) {
+                    return itemMap;
+                }
+            }
+        }
         return null;
     }
 

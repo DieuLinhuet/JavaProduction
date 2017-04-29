@@ -9,5 +9,8 @@ public class Main {
     public static void main(String[] args) {
         GUI gui = new GUI();
         gui.setVisible(true);
+
+//        Test test = new Test();
+//        test.setVisible(true);
     }
 }

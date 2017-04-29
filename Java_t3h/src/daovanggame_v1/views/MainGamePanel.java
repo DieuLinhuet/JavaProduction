@@ -24,7 +24,6 @@ public class MainGamePanel extends JPanel implements Runnable, KeyListener {
 
         thread = new Thread(this);
         thread.start();
-
     }
 
     @Override
@@ -68,7 +67,7 @@ public class MainGamePanel extends JPanel implements Runnable, KeyListener {
         while (manager.isRunning()){
             time++;
             try {
-                thread.sleep(17);
+                Thread.sleep(20);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
