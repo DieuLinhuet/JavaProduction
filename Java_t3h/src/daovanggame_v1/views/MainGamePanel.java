@@ -14,9 +14,11 @@ import java.awt.event.KeyListener;
 public class MainGamePanel extends JPanel implements Runnable, KeyListener {
     Thread thread;
     private ManagerGame manager;
+    private Image background;
 
     MainGamePanel(){
         setBackground(Color.ORANGE);
+        background = new ImageIcon(getClass().getResource("/daovanggame_v1/res/images/background.jpg")).getImage();
         manager = new ManagerGame();
 
         addKeyListener(this);
@@ -32,6 +34,7 @@ public class MainGamePanel extends JPanel implements Runnable, KeyListener {
         Graphics2D g2d = (Graphics2D)g;
         //xu ly but ve
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g2d.drawImage(background, 0, Constant.SIZE_ITEM * 9, Constant.WIDTH_FRAME, Constant.HEIGHT_FRAME, null);
         drawString(g2d);
         manager.drawAll(g2d);
     }

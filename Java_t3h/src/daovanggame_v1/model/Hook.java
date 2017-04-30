@@ -21,6 +21,7 @@ public class Hook extends Object2D implements Constant {
     private boolean isRetrun; // true: hook duoc keo ve
     private boolean isInteraction;//true: xay ra va cham
     private boolean finish; //true: ket thuc 1 lan tha hook
+    private int idItem; //id item map de tinh score
 
     public Hook(int x, int y) {
         image = IMG_HOOK;
@@ -127,22 +128,29 @@ public class Hook extends Object2D implements Constant {
             switch (itemMap.getImgId()) {
                 case ItemImages.GOLD_ID0:
                     speed = 20;
+                    idItem = 1;
                     break;
                 case ItemImages.GOLD_ID1:
                     speed = 10;
+                    idItem = 2;
                     break;
                 case ItemImages.GOLD_ID2:
                     speed = 5;
+                    idItem = 3;
                     break;
                 case ItemImages.STONE_ID0:
                 case ItemImages.STONE_ID1:
                     speed = 3;
+                    idItem = 4;
                     break;
                 case ItemImages.GOLD_ID3:
                     speed = 1;
+                    idItem = 5;
                     break;
                 default:
                     speed = 4;
+                    idItem = 6;
+                    break;
             }
             pullRope(time);
             int i = itemMap.getY() / SIZE_ITEM;
@@ -159,18 +167,18 @@ public class Hook extends Object2D implements Constant {
             sizeImg = SIZE_HOOK;
             isRetrun = false;
             isInteraction = false;
-            switch (speed) {
-                case 20:
-                    return 50;
-                case 10:
-                    return 100;
-                case 5:
-                    return 250;
-                case 3:
-                    return 20;
-                case 4:
-                    return 238;
+            switch (idItem) {
                 case 1:
+                    return 50;
+                case 2:
+                    return 100;
+                case 3:
+                    return 250;
+                case 4:
+                    return 20;
+                case 6:
+                    return 238;
+                case 5:
                     return 500;
                 default:
                     return 0;
@@ -208,7 +216,7 @@ public class Hook extends Object2D implements Constant {
     private ItemMap interactionLeft(ItemMap[][] itemMaps) {
         int x1, x2, y1, y2;
         int row1, row2;
-        int col;
+        int col1, col2;
 
         if (theta > 0) {
             y1 = (int) (rope.getY0() + (y - rope.getY0() + sizeImg) * Math.cos(Math.toRadians(theta)));
@@ -219,7 +227,8 @@ public class Hook extends Object2D implements Constant {
 
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             row2 = y2 / SIZE_ITEM;
-            col = x2 / SIZE_ITEM;
+            col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
+            col2 = x2 / SIZE_ITEM;
         } else if (theta < 0) {
             x2 = (int) (rope.getX0() + (y - rope.getY0() + sizeImg) * Math.sin(Math.toRadians(-theta)));
             y2 = (int) (rope.getY0() + (y - rope.getY0() + sizeImg) * Math.cos(Math.toRadians(-theta)));
@@ -229,7 +238,8 @@ public class Hook extends Object2D implements Constant {
 
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             row2 = y2 / SIZE_ITEM;
-            col = x2 / SIZE_ITEM;
+            col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
+            col2 = x2 / SIZE_ITEM;
         } else {
             x2 = rope.getX0() - sizeImg / 2;
             y2 = y + sizeImg;
@@ -237,28 +247,42 @@ public class Hook extends Object2D implements Constant {
 
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             row2 = y2 / SIZE_ITEM;
-            col = x2 / SIZE_ITEM;
+            col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
+            col2 = x2 / SIZE_ITEM;
         }
-        if (col >= NUM_COL || row2 >= NUM_ROW || col < 0) {
+        if (col2 >= NUM_COL || row2 >= NUM_ROW) {
             return null;
         }
-        if (row2 > NUM_COL - 6) {
+        if (col1 < 0) {
+            for (int i = row1; i <= row2; i++) {
+                for (int j = 0; j <= 6; j++) {
+                    ItemMap itemMap = itemMaps[i][j];
+                    if (itemMap != null) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                            return itemMap;
+                        }
+                    }
+                }
+            }
+        } else if (row2 > NUM_COL - 6) {
             for (int i = NUM_COL - 6; i <= NUM_COL; i++) {
-                ItemMap itemMap = itemMaps[i][col];
-                if (itemMap != null) {
-                    if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
-                        itemMaps[i][col] = null;
-                        return itemMap;
+                for (int j = col1; j <= col2; j++) {
+                    ItemMap itemMap = itemMaps[i][j];
+                    if (itemMap != null) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                            return itemMap;
+                        }
                     }
                 }
             }
         } else {
             for (int i = row1; i <= row2; i++) {
-                ItemMap itemMap = itemMaps[i][col];
-                if (itemMap != null) {
-                    if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
-                        itemMaps[i][col] = null;
-                        return itemMap;
+                for (int j = col1; j <= col2; j++) {
+                    ItemMap itemMap = itemMaps[i][j];
+                    if (itemMap != null) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                            return itemMap;
+                        }
                     }
                 }
             }
@@ -308,7 +332,6 @@ public class Hook extends Object2D implements Constant {
                 ItemMap itemMap = itemMaps[i][col];
                 if (itemMap != null) {
                     if (y1 >= itemMap.getY() && y1 <= itemMap.getY() + itemMap.sizeImg) {
-                        itemMaps[i][col] = null;
                         return itemMap;
                     }
                 }
@@ -318,7 +341,6 @@ public class Hook extends Object2D implements Constant {
                 ItemMap itemMap = itemMaps[i][col];
                 if (itemMap != null) {
                     if (y1 >= itemMap.getY() && y1 <= itemMap.getY() + itemMap.sizeImg) {
-                        itemMaps[i][col] = null;
                         return itemMap;
                     }
                 }
