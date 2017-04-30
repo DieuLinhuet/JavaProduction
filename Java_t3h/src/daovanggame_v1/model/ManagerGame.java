@@ -187,7 +187,7 @@ public class ManagerGame implements Constant {
     }
 
     public void releaseHook(long time) {
-        hook.releaseHook(time, itemMaps);
+        score += hook.releaseHook(time, itemMaps);
         changeImageMiner(time);
     }
 

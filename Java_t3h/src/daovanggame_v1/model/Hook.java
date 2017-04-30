@@ -19,7 +19,8 @@ public class Hook extends Object2D implements Constant {
     private boolean isCheckTheta; // true: hook quay tu trai sang phai va nguoc lai
     private boolean isRelease; // true: hook dung quay
     private boolean isRetrun; // true: hook duoc keo ve
-    private boolean finish; // true: ket thuc mot qua trinh tha-keo hook
+    private boolean isInteraction;//true: xay ra va cham
+    private boolean finish; //true: ket thuc 1 lan tha hook
 
     public Hook(int x, int y) {
         image = IMG_HOOK;
@@ -30,16 +31,8 @@ public class Hook extends Object2D implements Constant {
         theta = 30;
     }
 
-    public boolean isFinish() {
-        return finish;
-    }
-
     public void setRelease(boolean release) {
         isRelease = release;
-    }
-
-    public void setFinish(boolean finish) {
-        this.finish = finish;
     }
 
     public boolean isRelease() {
@@ -82,9 +75,12 @@ public class Hook extends Object2D implements Constant {
         rope.setY1(this.y);
     }
 
-    public void releaseHook(long time, ItemMap[][] itemMaps) {
+    public int releaseHook(long time, ItemMap[][] itemMaps) {
         if (isRetrun) {
-            pullRope(time);
+            if (!isInteraction) {
+                speed = 25;
+            }
+            return pullRope(time);
         }
         int x, y;
         if (theta > 0) {
@@ -100,15 +96,18 @@ public class Hook extends Object2D implements Constant {
         if (x < 0 || x > WIDTH_FRAME || y > HEIGHT_FRAME) {
             isRelease = false;
             isRetrun = true;
-            pullRope(time);
+            if (!isInteraction) {
+                speed = 25;
+            }
+            return pullRope(time);
         }
         if (!isRelease) {
-            return;
+            return 0;
         }
-        if (time % 5 != 0) {
-            return;
+        if (time % 3 != 0) {
+            return 0;
         }
-        speed = 8;
+        speed = 10;
         this.y += speed;
         rope.setY1(this.y);
 
@@ -119,30 +118,66 @@ public class Hook extends Object2D implements Constant {
             this.x = rope.getX0() - sizeImg / 2;
             isRelease = false;
             isRetrun = true;
+            isInteraction = true;
+            switch (itemMap.getImgId()) {
+                case ItemImages.GOLD_ID0:
+                    speed = 20;
+                    break;
+                case ItemImages.GOLD_ID1:
+                    speed = 12;
+                    break;
+                case ItemImages.GOLD_ID2:
+                    speed = 8;
+                case ItemImages.STONE_ID0:
+                case ItemImages.STONE_ID1:
+                    speed = 5;
+                    break;
+                case ItemImages.GOLD_ID3:
+                    speed = 2;
+                    break;
+                default:
+                    speed = 7;
+            }
             pullRope(time);
             int i = itemMap.getY() / SIZE_ITEM;
             int j = itemMap.getX() / SIZE_ITEM;
             itemMaps[i][j] = null;
         }
-
+        return 0;
     }
 
-    private void pullRope(long time) {
+    private int pullRope(long time) {
         if (y <= rope.getY0()) {
+            finish = true;
+            switch (speed) {
+                case 20:
+                    return 50;
+                case 12:
+                    return 100;
+                case 8:
+                    return 250;
+                case 7:
+                    return 238;
+                case 5:
+                    return 20;
+                case 2:
+                    return 500;
+            }
             image = IMG_HOOK;
             sizeImg = SIZE_HOOK;
             isRetrun = false;
-            finish = true;
-            return;
+            isInteraction = false;
+            return 0;
         }
         if (!isRetrun) {
-            return;
+            return 0;
         }
-//        if (time % 3 != 0){
-//            return;
-//        }
-        y -= 10;
+        if (time % 3 != 0) {
+            return 0;
+        }
+        y -= speed;
         rope.setY1(this.y);
+        return 0;
     }
 
     //    Kiem tra va cham, neu va cham tra ve doi tuong bi va cham voi hook
@@ -376,4 +411,11 @@ public class Hook extends Object2D implements Constant {
         return null;
     }
 
+    public boolean isFinish() {
+        return finish;
+    }
+
+    public void setFinish(boolean finish) {
+        this.finish = finish;
+    }
 }
