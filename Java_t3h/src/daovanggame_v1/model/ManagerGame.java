@@ -59,6 +59,7 @@ public class ManagerGame implements Constant {
             second = 30;
             goal = 650;
             initMap();
+            initHook();
         }
         gameRunning(time);
     }

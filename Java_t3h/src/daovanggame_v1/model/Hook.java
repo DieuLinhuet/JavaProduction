@@ -66,12 +66,12 @@ public class Hook extends Object2D implements Constant {
             return;
         }
         if (isCheckTheta) {
-            theta += 2;
+            theta += 1;
             if (theta == 80) {
                 isCheckTheta = false;
             }
         } else {
-            theta -= 2;
+            theta -= 1;
             if (theta == -80) {
                 isCheckTheta = true;
             }
@@ -131,11 +131,11 @@ public class Hook extends Object2D implements Constant {
                     idItem = 1;
                     break;
                 case ItemImages.GOLD_ID1:
-                    speed = 10;
+                    speed = 5;
                     idItem = 2;
                     break;
                 case ItemImages.GOLD_ID2:
-                    speed = 5;
+                    speed = 4;
                     idItem = 3;
                     break;
                 case ItemImages.STONE_ID0:
@@ -225,8 +225,8 @@ public class Hook extends Object2D implements Constant {
             x2 = (int) (x1 + sizeImg * Math.cos(Math.toRadians(theta)));
             y2 = (int) (y1 + sizeImg * Math.sin(Math.toRadians(theta)));
 
+            row2 = (y2 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y2 / SIZE_ITEM;
             col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             col2 = x2 / SIZE_ITEM;
         } else if (theta < 0) {
@@ -236,8 +236,8 @@ public class Hook extends Object2D implements Constant {
             x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(-theta)));
             y1 = (int) (y2 - sizeImg * Math.sin(Math.toRadians(-theta)));
 
+            row2 = (y2 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y2 / SIZE_ITEM;
             col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             col2 = x2 / SIZE_ITEM;
         } else {
@@ -245,8 +245,8 @@ public class Hook extends Object2D implements Constant {
             y2 = y + sizeImg;
             x1 = rope.getX0() + sizeImg / 2;
 
+            row2 = (y2 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y2 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y2 / SIZE_ITEM;
             col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             col2 = x2 / SIZE_ITEM;
         }
@@ -258,7 +258,8 @@ public class Hook extends Object2D implements Constant {
                 for (int j = 0; j <= 6; j++) {
                     ItemMap itemMap = itemMaps[i][j];
                     if (itemMap != null) {
-                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg
+                                && x2 >= itemMap.getX() && x2 <= itemMap.getX() + itemMap.sizeImg) {
                             return itemMap;
                         }
                     }
@@ -269,7 +270,8 @@ public class Hook extends Object2D implements Constant {
                 for (int j = col1; j <= col2; j++) {
                     ItemMap itemMap = itemMaps[i][j];
                     if (itemMap != null) {
-                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg
+                                && x2 >= itemMap.getX() && x2 <= itemMap.getX() + itemMap.sizeImg) {
                             return itemMap;
                         }
                     }
@@ -280,7 +282,8 @@ public class Hook extends Object2D implements Constant {
                 for (int j = col1; j <= col2; j++) {
                     ItemMap itemMap = itemMaps[i][j];
                     if (itemMap != null) {
-                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg) {
+                        if (y2 >= itemMap.getY() && y2 <= itemMap.getY() + itemMap.sizeImg
+                                && x2 >= itemMap.getX() && x2 <= itemMap.getX() + itemMap.sizeImg) {
                             return itemMap;
                         }
                     }
@@ -302,8 +305,8 @@ public class Hook extends Object2D implements Constant {
             x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(theta)));
             y1 = (int) (y2 + sizeImg * Math.sin(Math.toRadians(theta)));
 
+            row2 = (y1 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y1 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y1 / SIZE_ITEM;
             col = x1 / SIZE_ITEM;
         } else if (theta < 0) {
             x2 = (int) (rope.getX0() + (y - rope.getY0() + sizeImg) * Math.sin(Math.toRadians(-theta)));
@@ -312,16 +315,16 @@ public class Hook extends Object2D implements Constant {
             x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(-theta)));
             y1 = (int) (y2 - sizeImg * Math.sin(Math.toRadians(-theta)));
 
+            row2 = (y1 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y1 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y1 / SIZE_ITEM;
             col = x1 / SIZE_ITEM;
         } else {
             x2 = rope.getX0() - sizeImg / 2;
             y1 = y + sizeImg;
             x1 = rope.getX0() + sizeImg / 2;
 
+            row2 = (y1 + 6 * SIZE_ITEM) / SIZE_ITEM;
             row1 = (y1 - 6 * SIZE_ITEM) / SIZE_ITEM;
-            row2 = y1 / SIZE_ITEM;
             col = x1 / SIZE_ITEM;
         }
         if (col >= NUM_COL || row2 >= NUM_ROW || col < 0) {

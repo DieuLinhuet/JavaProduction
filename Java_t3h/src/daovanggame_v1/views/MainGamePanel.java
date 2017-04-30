@@ -70,7 +70,7 @@ public class MainGamePanel extends JPanel implements Runnable, KeyListener {
         while (manager.isRunning()){
             time++;
             try {
-                Thread.sleep(20);
+                Thread.sleep(17);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
