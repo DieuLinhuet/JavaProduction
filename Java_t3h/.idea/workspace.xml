@@ -6,18 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274b17a7-f8af-4624-8f38-5d4c11d940ca" name="Default" comment="update interaction_2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daovanggame_v1/res/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Java_t3h_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daovanggame_v1/res/maps/map1.txt" />
+    <list default="true" id="274b17a7-f8af-4624-8f38-5d4c11d940ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/Hook.class" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/Hook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/views/MainGamePanel.class" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/views/MainGamePanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/res/maps/map0.txt" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/res/maps/map0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" afterPath="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daovanggame_v1/res/maps/map0.txt" afterPath="$PROJECT_DIR$/src/daovanggame_v1/res/maps/map0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java" afterPath="$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +26,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -46,23 +39,20 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="180">
               <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#464#465#0" expanded="false" />
-                <element signature="e#515#516#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="199" column="48" lean-forward="false" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="48" />
+            <state relative-caret-position="461">
+              <caret line="295" column="59" lean-forward="false" selection-start-line="295" selection-start-column="59" selection-end-line="295" selection-end-column="59" />
               <folding>
+                <element signature="docComment;class#Hook#0" expanded="false" />
                 <element signature="method#Hook#0;class#Hook#0" expanded="false" />
                 <element signature="method#draw#0;class#Hook#0" expanded="false" />
                 <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -81,8 +71,8 @@
       <file leaf-file-name="MainGamePanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" column="105" lean-forward="false" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
+            <state relative-caret-position="105">
+              <caret line="72" column="31" lean-forward="false" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
               <folding>
                 <element signature="method#drawString#0;class#MainGamePanel#0" expanded="false" />
                 <element signature="method#keyPressed#0;class#MainGamePanel#0" expanded="false" />
@@ -94,12 +84,11 @@
       <file leaf-file-name="ManagerGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="-98">
+              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding>
                 <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
                 <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-                <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
                 <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
                 <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
                 <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -147,11 +136,11 @@
         <option value="$PROJECT_DIR$/src/daovanggame_v1/model/Object2D.java" />
         <option value="$PROJECT_DIR$/src/daovanggame_v1/model/Test.java" />
         <option value="$PROJECT_DIR$/src/daovanggame_v1/Main.java" />
-        <option value="$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java" />
-        <option value="$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java" />
-        <option value="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" />
         <option value="$PROJECT_DIR$/src/daovanggame_v1/res/maps/map1.txt" />
         <option value="$PROJECT_DIR$/src/daovanggame_v1/res/maps/map0.txt" />
+        <option value="$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java" />
+        <option value="$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java" />
+        <option value="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" />
       </list>
     </option>
   </component>
@@ -681,7 +670,7 @@
       <workItem from="1493431989231" duration="4128000" />
       <workItem from="1493455329448" duration="2557000" />
       <workItem from="1493458775007" duration="13812000" />
-      <workItem from="1493514739157" duration="14236000" />
+      <workItem from="1493514739157" duration="19515000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update interaction - incomplete&quot;">
       <created>1493432742551</created>
@@ -711,20 +700,34 @@
       <option name="project" value="LOCAL" />
       <updated>1493521471657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update interaction_2">
+      <created>1493547289032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493547289032</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update interaction_3">
+      <created>1493558653577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493558653593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102289000" />
+    <option name="totallyTimeSpent" value="107568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,13 +767,14 @@
     <MESSAGE value="update interaction_1" />
     <MESSAGE value="update speed and score" />
     <MESSAGE value="update interaction_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update interaction_2" />
+    <MESSAGE value="update interaction_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update interaction_3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="49" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -786,7 +790,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -811,6 +814,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -829,11 +833,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +867,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -884,6 +883,7 @@
         <state relative-caret-position="1037">
           <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -902,11 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +944,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -965,6 +960,7 @@
         <state relative-caret-position="1037">
           <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -983,11 +979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +1021,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1046,6 +1037,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -1090,7 +1082,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1107,6 +1098,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -1151,7 +1143,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1168,6 +1159,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -1200,7 +1192,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1217,6 +1208,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -1249,7 +1241,6 @@
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1331,18 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/res/images/gold2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1385,14 +1364,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="72" column="31" lean-forward="false" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding>
+            <element signature="method#drawString#0;class#MainGamePanel#0" expanded="false" />
+            <element signature="method#keyPressed#0;class#MainGamePanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="-98">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
           <folding>
             <element signature="method#ManagerGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initGame#0;class#ManagerGame#0" expanded="false" />
-            <element signature="method#gameRunning#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#finishGame#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#readMap#0;class#ManagerGame#0" expanded="false" />
             <element signature="method#initHook#0;class#ManagerGame#0" expanded="false" />
@@ -1404,22 +1409,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/views/MainGamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="105" lean-forward="false" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
-          <folding>
-            <element signature="method#drawString#0;class#MainGamePanel#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#MainGamePanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="199" column="48" lean-forward="false" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="48" />
+        <state relative-caret-position="461">
+          <caret line="295" column="59" lean-forward="false" selection-start-line="295" selection-start-column="59" selection-end-line="295" selection-end-column="59" />
           <folding>
+            <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
@@ -1431,14 +1426,6 @@
             <element signature="method#interactionTop#0;class#Hook#0" expanded="false" />
             <element signature="method#changeImage#0;class#Hook#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
