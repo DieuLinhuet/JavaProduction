@@ -35,6 +35,14 @@ public class Hook extends Object2D implements Constant {
         isRelease = release;
     }
 
+    public void setFinish(boolean finish) {
+        this.finish = finish;
+    }
+
+    public boolean isFinish() {
+        return finish;
+    }
+
     public boolean isRelease() {
         return isRelease;
     }
@@ -50,22 +58,19 @@ public class Hook extends Object2D implements Constant {
     }
 
 
-    public void rotate(long time) {
-        /*if (time % 3 != 0){
-            return;
-        }*/
+    public void rotate() {
         int x = rope.getX0(); // toa do tam
         int y = rope.getY0(); //toa do tam
         if (isRelease || isRetrun) {
             return;
         }
         if (isCheckTheta) {
-            theta += 1;
+            theta += 2;
             if (theta == 80) {
                 isCheckTheta = false;
             }
         } else {
-            theta -= 1;
+            theta -= 2;
             if (theta == -80) {
                 isCheckTheta = true;
             }
@@ -78,7 +83,7 @@ public class Hook extends Object2D implements Constant {
     public int releaseHook(long time, ItemMap[][] itemMaps) {
         if (isRetrun) {
             if (!isInteraction) {
-                speed = 25;
+                speed = 30;
             }
             return pullRope(time);
         }
@@ -97,14 +102,14 @@ public class Hook extends Object2D implements Constant {
             isRelease = false;
             isRetrun = true;
             if (!isInteraction) {
-                speed = 25;
+                speed = 30;
             }
             return pullRope(time);
         }
         if (!isRelease) {
             return 0;
         }
-        if (time % 3 != 0) {
+        if (time % 5 != 0) {
             return 0;
         }
         speed = 10;
@@ -124,19 +129,20 @@ public class Hook extends Object2D implements Constant {
                     speed = 20;
                     break;
                 case ItemImages.GOLD_ID1:
-                    speed = 12;
+                    speed = 10;
                     break;
                 case ItemImages.GOLD_ID2:
-                    speed = 8;
-                case ItemImages.STONE_ID0:
-                case ItemImages.STONE_ID1:
                     speed = 5;
                     break;
+                case ItemImages.STONE_ID0:
+                case ItemImages.STONE_ID1:
+                    speed = 3;
+                    break;
                 case ItemImages.GOLD_ID3:
-                    speed = 2;
+                    speed = 1;
                     break;
                 default:
-                    speed = 7;
+                    speed = 4;
             }
             pullRope(time);
             int i = itemMap.getY() / SIZE_ITEM;
@@ -147,32 +153,34 @@ public class Hook extends Object2D implements Constant {
     }
 
     private int pullRope(long time) {
-        if (y <= rope.getY0()) {
+        if (y <= rope.getY0() + sizeImg) {
             finish = true;
-            switch (speed) {
-                case 20:
-                    return 50;
-                case 12:
-                    return 100;
-                case 8:
-                    return 250;
-                case 7:
-                    return 238;
-                case 5:
-                    return 20;
-                case 2:
-                    return 500;
-            }
             image = IMG_HOOK;
             sizeImg = SIZE_HOOK;
             isRetrun = false;
             isInteraction = false;
-            return 0;
+            switch (speed) {
+                case 20:
+                    return 50;
+                case 10:
+                    return 100;
+                case 5:
+                    return 250;
+                case 3:
+                    return 20;
+                case 4:
+                    return 238;
+                case 1:
+                    return 500;
+                default:
+                    return 0;
+
+            }
         }
         if (!isRetrun) {
             return 0;
         }
-        if (time % 3 != 0) {
+        if (time % 5 != 0) {
             return 0;
         }
         y -= speed;
@@ -411,11 +419,4 @@ public class Hook extends Object2D implements Constant {
         return null;
     }
 
-    public boolean isFinish() {
-        return finish;
-    }
-
-    public void setFinish(boolean finish) {
-        this.finish = finish;
-    }
 }

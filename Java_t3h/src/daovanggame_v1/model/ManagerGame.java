@@ -23,6 +23,7 @@ public class ManagerGame implements Constant {
     private int second;
     private boolean isRunning = true;
     private boolean isStart = true;
+    private int goal;
 
 
     public ManagerGame() {
@@ -56,13 +57,15 @@ public class ManagerGame implements Constant {
             score = 0;
             minute = 1;
             second = 30;
+            goal = 650;
+            initMap();
         }
         gameRunning(time);
     }
 
     public void gameRunning(long time) {
         isStart = false;
-        rotateHook(time);
+        rotateHook();
 
         if (time % 60 != 0){
             return;
@@ -79,9 +82,16 @@ public class ManagerGame implements Constant {
 
 
     private void finishGame(long time) {
+        int result;
         isRunning = false;
-        int result = JOptionPane.showConfirmDialog(null, "Game over! Do you want continue?",
-                "Game over", JOptionPane.YES_NO_OPTION);
+        if (score >= goal) {
+            result = JOptionPane.showConfirmDialog(null, "You have reached the goal! Do you want play again?",
+                    "Congratulation", JOptionPane.YES_NO_OPTION);
+
+        } else {
+            result = JOptionPane.showConfirmDialog(null, "Game over! Do you want continue?",
+                    "Game over", JOptionPane.YES_NO_OPTION);
+        }
         if (result == JOptionPane.OK_OPTION){
             isRunning = true;
             isStart = true;
@@ -182,8 +192,8 @@ public class ManagerGame implements Constant {
     }
 
 
-    private void rotateHook(long time) {
-        hook.rotate(time);
+    private void rotateHook() {
+        hook.rotate();
     }
 
     public void releaseHook(long time) {
@@ -191,24 +201,20 @@ public class ManagerGame implements Constant {
         changeImageMiner(time);
     }
 
-    private int i = 0, j = 0;
     private void changeImageMiner(long time) {
         if (time % 5 != 0){
             return;
         }
         if (hook.isRelease()){
-            miner.image = Miner.images0[i++];
-            if (i == 3){
-                i = 0;
-            }
+            miner.image = Miner.images0[(int) (time % 4)];
         }
         if (hook.isRetrun()){
-            miner.image = Miner.images1[j++];
-            if (j == 7){
-                j = 0;
-            }
+            miner.image = Miner.images1[(int) (time % 8)];
         }
     }
 
 
+    public int getGoal() {
+        return goal;
+    }
 }

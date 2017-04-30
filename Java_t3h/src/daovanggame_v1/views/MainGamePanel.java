@@ -40,7 +40,7 @@ public class MainGamePanel extends JPanel implements Runnable, KeyListener {
         g2d.setColor(Color.RED);
         g2d.setFont(new Font("TimeNewRoman", Font.BOLD, 20));
         g2d.drawString("Money: $" + manager.getScore(), 20, 50);
-        g2d.drawString("Gold: $650", 20, 80);
+        g2d.drawString("Goal: $" + manager.getGoal(), 20, 80);
         g2d.setFont(new Font("TimeNewRoman", Font.BOLD, 18));
         g2d.setColor(Color.BLACK);
         if (manager.getMinute() < 10 && manager.getSecond() < 10){
