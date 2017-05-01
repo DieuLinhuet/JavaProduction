@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="274b17a7-f8af-4624-8f38-5d4c11d940ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Java_t3h_jar.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/Hook.class" afterPath="$PROJECT_DIR$/out/production/Java_t3h/daovanggame_v1/model/Hook.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" afterPath="$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java" afterPath="$PROJECT_DIR$/src/daovanggame_v1/model/ManagerGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,14 +52,15 @@
       <file leaf-file-name="Hook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="166" column="48" lean-forward="false" selection-start-line="166" selection-start-column="48" selection-end-line="166" selection-end-column="48" />
+            <state relative-caret-position="45">
+              <caret line="162" column="36" lean-forward="false" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
               <folding>
                 <element signature="docComment;class#Hook#0" expanded="false" />
                 <element signature="method#Hook#0;class#Hook#0" expanded="false" />
                 <element signature="method#draw#0;class#Hook#0" expanded="false" />
                 <element signature="method#rotate#0;class#Hook#0" expanded="false" />
                 <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+                <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
                 <element signature="method#interaction#0;class#Hook#0" expanded="false" />
                 <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
                 <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -114,8 +113,8 @@
                 <element signature="e#5649#5650#0" expanded="false" />
                 <element signature="e#5678#5679#0" expanded="false" />
                 <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-                <element signature="e#6149#6150#0" expanded="false" />
-                <element signature="e#6176#6177#0" expanded="false" />
+                <element signature="e#6150#6151#0" expanded="false" />
+                <element signature="e#6177#6178#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -724,7 +723,7 @@
       <workItem from="1493458775007" duration="13812000" />
       <workItem from="1493514739157" duration="21159000" />
       <workItem from="1493585872611" duration="660000" />
-      <workItem from="1493602476597" duration="1129000" />
+      <workItem from="1493602476597" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update interaction - incomplete&quot;">
       <created>1493432742551</created>
@@ -775,11 +774,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493558786061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update pullRope">
+      <created>1493604989128</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493604989128</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111001000" />
+    <option name="totallyTimeSpent" value="111601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -829,7 +835,8 @@
     <MESSAGE value="update speed and score" />
     <MESSAGE value="update interaction_2" />
     <MESSAGE value="update interaction_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update interaction_3" />
+    <MESSAGE value="update pullRope" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pullRope" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -872,8 +879,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,6 +903,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -968,8 +976,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,6 +992,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1064,8 +1073,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1080,6 +1089,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1160,8 +1170,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1176,6 +1186,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1236,8 +1247,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1252,6 +1263,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1312,8 +1324,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1328,6 +1340,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1376,8 +1389,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1392,6 +1405,7 @@
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />
@@ -1440,8 +1454,8 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1614,22 +1628,23 @@
             <element signature="e#5649#5650#0" expanded="false" />
             <element signature="e#5678#5679#0" expanded="false" />
             <element signature="method#releaseHook#0;class#ManagerGame#0" expanded="false" />
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6176#6177#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6177#6178#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daovanggame_v1/model/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="166" column="48" lean-forward="false" selection-start-line="166" selection-start-column="48" selection-end-line="166" selection-end-column="48" />
+        <state relative-caret-position="45">
+          <caret line="162" column="36" lean-forward="false" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
           <folding>
             <element signature="docComment;class#Hook#0" expanded="false" />
             <element signature="method#Hook#0;class#Hook#0" expanded="false" />
             <element signature="method#draw#0;class#Hook#0" expanded="false" />
             <element signature="method#rotate#0;class#Hook#0" expanded="false" />
             <element signature="method#releaseHook#0;class#Hook#0" expanded="false" />
+            <element signature="method#pullRope#0;class#Hook#0" expanded="false" />
             <element signature="method#interaction#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionLeft#0;class#Hook#0" expanded="false" />
             <element signature="method#interactionRight#0;class#Hook#0" expanded="false" />

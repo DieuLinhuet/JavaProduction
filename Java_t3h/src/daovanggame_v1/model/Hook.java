@@ -170,16 +170,22 @@ public class Hook extends Object2D implements Constant {
             finish = true;
             switch (idItem) {
                 case 1:
+                    idItem = 0;
                     return 50;
                 case 2:
+                    idItem = 0;
                     return 100;
                 case 3:
+                    idItem = 0;
                     return 250;
                 case 4:
+                    idItem = 0;
                     return 20;
                 case 6:
+                    idItem = 0;
                     return 238;
                 case 5:
+                    idItem = 0;
                     return 500;
                 default:
                     return 0;
