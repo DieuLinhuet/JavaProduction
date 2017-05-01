@@ -203,7 +203,7 @@ public class ManagerGame implements Constant {
     }
 
     private void changeImageMiner(long time) {
-        if (time % 5 != 0){
+        if (time % 7 != 0) {
             return;
         }
         if (hook.isRelease()){

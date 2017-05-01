@@ -162,11 +162,12 @@ public class Hook extends Object2D implements Constant {
 
     private int pullRope(long time) {
         if (y <= rope.getY0() + sizeImg) {
-            finish = true;
             image = IMG_HOOK;
             sizeImg = SIZE_HOOK;
+            this.x = rope.getX0() - sizeImg / 2;
             isRetrun = false;
             isInteraction = false;
+            finish = true;
             switch (idItem) {
                 case 1:
                     return 50;
@@ -352,7 +353,6 @@ public class Hook extends Object2D implements Constant {
         return null;
     }
 
-
     private ItemMap interactionTop(ItemMap[][] itemMaps) {
         int x1, x2, y1, y2;
         int col1, col2;
@@ -364,6 +364,9 @@ public class Hook extends Object2D implements Constant {
 
             x1 = (int) (x2 + sizeImg * Math.cos(Math.toRadians(theta)));
             y1 = (int) (y2 + sizeImg * Math.sin(Math.toRadians(theta)));
+//            xac dinh lai cac toa do
+            int ch1 = (int) ((y - rope.getY0() + sizeImg) * Math.toRadians(-theta));
+
 
             col1 = (x2 - 6 * SIZE_ITEM) / SIZE_ITEM;
             col2 = x1 / SIZE_ITEM;
@@ -417,7 +420,6 @@ public class Hook extends Object2D implements Constant {
         }
         return null;
     }
-
 
     //    Thay doi image hook bang image cua item khi xay ra va cham
     private Image changeImage(ItemMap[][] itemMaps) {
