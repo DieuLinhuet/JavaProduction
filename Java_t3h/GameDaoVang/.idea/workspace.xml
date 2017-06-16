@@ -7,302 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="655b38e5-be1c-4f0c-bc72-fd0f527589a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/bag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/bagx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/bone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/bonex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/diamondx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold0x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/gold3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/hook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/miner43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig0x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/pig1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/shine9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/skull.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/skullx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/stone0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/stone0x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/stone1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/stone1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/tnt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/images/tntx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GameDaoVang_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameDaoVang.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/Constant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/Hook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/ItemImages.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/ItemMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/ManagerGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/Miner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/Object2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/models/Rope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/maps/map0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/maps/map1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/views/GUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/views/MainGamePanel.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java_t3h.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/birdgohome/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/Hook.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/ItemImages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/ItemMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/Miner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/Object2D.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/model/Rope.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/bag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/bagx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/bone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/bonex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/boom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/diamondx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/gold3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/hook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/miner43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/pig1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/shine9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/skull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/skullx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/stone0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/stone0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/stone1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/stone1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/tnt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/images/tntx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/res/maps/map0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/views/GUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Java_t3h/daovanggame_v1/views/MainGamePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/birdgohome/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/Constant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/Hook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/ItemImages.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/ItemMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/ManagerGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/Miner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/Object2D.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/model/Rope.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/bag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/bagx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/bone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/bonex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/boom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/diamondx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/gold3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/hook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/miner43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/pig1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/shine9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/skull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/skullx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/stone0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/stone0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/stone1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/stone1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/tnt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/images/tntx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/maps/map0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/res/maps/map1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/views/GUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/daovanggame_v1/views/MainGamePanel.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/GameTank1702E/out/production/GameTank1702E/com/t3h/tank90/gui/PanelMenu.class" afterPath="$PROJECT_DIR$/../../lecture/GameTank1702E/out/production/GameTank1702E/com/t3h/tank90/gui/PanelMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Buoi3/Buoi3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/Buoi3/Buoi3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Buoi3/ChuaBaiTuGiac/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/Buoi3/ChuaBaiTuGiac/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Buoi4/Buoi4BoHanhVi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/Buoi4/Buoi4BoHanhVi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Buoi7ArrayCollection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/Buoi7ArrayCollection/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/ChuyenDeLamGame/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/ChuyenDeLamGame/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/DemoArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/DemoArrayList/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/DemoCalulator/DemoCalulator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/DemoCalulator/DemoCalulator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/DemoFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/DemoFile/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/DemoGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/DemoGUI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/DemoThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/DemoThread/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/GameTank1702E/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/GameTank1702E/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Pikachu/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../lecture/Pikachu/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/Pikachu/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/Pikachu/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/StringDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/StringDemo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/TankDaoVang/DaoVang/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/TankDaoVang/DaoVang/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lecture/TankDaoVang/GameTank1702E/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../lecture/TankDaoVang/GameTank1702E/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/t3h/daovang/res/maps/map0.txt" afterPath="$PROJECT_DIR$/src/com/t3h/daovang/res/maps/map0.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -956,12 +664,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497600588400</updated>
-      <workItem from="1497600591815" duration="3285000" />
+      <workItem from="1497600591815" duration="3360000" />
     </task>
+    <task id="LOCAL-00001" summary="update project">
+      <created>1497603915021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497603915021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3285000" />
+    <option name="totallyTimeSpent" value="3360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
@@ -1002,6 +718,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
