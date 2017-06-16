@@ -6,7 +6,304 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adafc71-0759-42c2-bd79-adfc9ed34ceb" name="Default" comment="" />
+    <list default="true" id="9adafc71-0759-42c2-bd79-adfc9ed34ceb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/bag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/bagx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/bone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/bonex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/boom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/diamond.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/diamondx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold0x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/gold3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/hook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner00.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner41.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/miner43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig00.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig0x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/pig1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/shine9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/skull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/skullx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/stone0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/stone0x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/stone1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/stone1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/tnt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/images/tntx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/GameDaoVang.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/Hook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/ItemImages.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/ItemMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/ManagerGame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/Miner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/Object2D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/models/Rope.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/maps/map0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/res/maps/map1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/views/GUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java_t3h/GameDaoVang/src/com/t3h/daovang/views/MainGamePanel.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/Java_t3h.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/birdgohome/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/Constant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/Hook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/ItemImages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/ItemMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/ManagerGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/Miner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/Object2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/model/Rope.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/bag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/bagx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/bone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/bonex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/boom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/diamondx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/gold3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/hook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/miner43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/pig1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/shine9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/skull.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/skullx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/stone0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/stone0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/stone1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/stone1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/tnt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/images/tntx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/res/maps/map0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/views/GUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/out/production/Java_t3h/daovanggame_v1/views/MainGamePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/birdgohome/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/Constant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/Hook.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/ItemImages.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/ItemMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/ManagerGame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/Miner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/Object2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/model/Rope.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/bag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/bagx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/bone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/bonex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/boom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/diamondx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/gold3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/hook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/miner43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/pig1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/shine9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/skull.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/skullx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/stone0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/stone0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/stone1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/stone1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/tnt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/images/tntx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/maps/map0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/res/maps/map1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/views/GUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Java_t3h/src/daovanggame_v1/views/MainGamePanel.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameTank1702E/com/t3h/tank90/gui/PanelMenu.class" afterPath="$PROJECT_DIR$/out/production/GameTank1702E/com/t3h/tank90/gui/PanelMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java_t3h/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Java_t3h/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Buoi3/Buoi3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Buoi3/Buoi3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Buoi3/ChuaBaiTuGiac/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Buoi3/ChuaBaiTuGiac/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Buoi4/Buoi4BoHanhVi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Buoi4/Buoi4BoHanhVi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Buoi7ArrayCollection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Buoi7ArrayCollection/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ChuyenDeLamGame/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ChuyenDeLamGame/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoArrayList/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoCalulator/DemoCalulator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoCalulator/DemoCalulator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoFile/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoGUI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoThread/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pikachu/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Pikachu/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pikachu/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Pikachu/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../StringDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../StringDemo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TankDaoVang/DaoVang/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TankDaoVang/DaoVang/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TankDaoVang/GameTank1702E/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TankDaoVang/GameTank1702E/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +321,8 @@
       <file leaf-file-name="PanelPlay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelPlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +330,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PanelMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PanelMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="244">
               <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,10 +342,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MrgPlayGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/MrgPlayGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3891#3892#0" expanded="true" />
+                <element signature="e#3943#3944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="648">
               <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
@@ -68,6 +379,9 @@
     <findStrings>
       <find>bullets</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -102,11 +416,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="57" />
     <option name="y" value="-4" />
-    <option name="width" value="1311" />
+    <option name="width" value="1309" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -122,9 +437,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,68 +509,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tank90" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tank90" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tank90" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameTank1702E" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -287,6 +537,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -751,15 +1004,16 @@
       <workItem from="1491449553676" duration="82000" />
       <workItem from="1491824606352" duration="7905000" />
       <workItem from="1491997924792" duration="10430000" />
+      <workItem from="1497599865226" duration="13000" />
+      <workItem from="1497603663795" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31757000" />
+    <option name="totallyTimeSpent" value="31988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -770,13 +1024,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.054432347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05304212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25553012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2551566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -819,6 +1073,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelPlay.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3680">
           <caret line="115" column="64" lean-forward="false" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
           <folding>
@@ -833,8 +1143,6 @@
           <caret line="116" column="21" lean-forward="false" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3708#3709#0" expanded="true" />
             <element signature="e#3891#3892#0" expanded="true" />
             <element signature="e#3943#3944#0" expanded="true" />
           </folding>
@@ -845,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,10 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2752">
           <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Tank#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,8 +1196,6 @@
           <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3708#3709#0" expanded="true" />
             <element signature="e#3891#3892#0" expanded="true" />
             <element signature="e#3943#3944#0" expanded="true" />
           </folding>
@@ -925,8 +1225,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3708#3709#0" expanded="true" />
             <element signature="e#3891#3892#0" expanded="true" />
             <element signature="e#3943#3944#0" expanded="true" />
           </folding>
@@ -1009,10 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#342#343#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,12 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,9 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,10 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="104" column="8" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="104" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Tank#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,30 +1355,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/MrgPlayGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3708#3709#0" expanded="true" />
-            <element signature="e#3891#3892#0" expanded="true" />
-            <element signature="e#3943#3944#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelPlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1107,7 +1370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="648">
           <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
@@ -1115,10 +1378,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/PanelMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="244">
           <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/tank90/gui/MrgPlayGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3891#3892#0" expanded="true" />
+            <element signature="e#3943#3944#0" expanded="true" />
           </folding>
         </state>
       </provider>
