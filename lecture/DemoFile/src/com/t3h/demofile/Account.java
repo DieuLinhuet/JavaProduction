@@ -1,9 +1,11 @@
 package com.t3h.demofile;
 
+import java.io.Serializable;
+
 /**
  * Created by ducnd on 15/03/2017.
  */
-public class Account {
+public class Account implements Serializable{
     private String username;
     private String password;
 
@@ -18,5 +20,10 @@ public class Account {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public String toString() {
+        return username + "\t" + password;
     }
 }
