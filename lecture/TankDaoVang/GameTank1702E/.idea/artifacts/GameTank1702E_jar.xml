@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="GameTank1702E:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/GameTank1702E_jar</output-path>
-    <root id="archive" name="GameTank1702E.jar">
-      <element id="module-output" name="GameTank1702E" />
-    </root>
-  </artifact>
-</component>

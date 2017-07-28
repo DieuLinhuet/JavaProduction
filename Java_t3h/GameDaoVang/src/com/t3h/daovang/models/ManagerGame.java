@@ -86,11 +86,13 @@ public class ManagerGame implements Constant{
         int result;
         isRunning = false;
         if (score >= goal) {
-            result = JOptionPane.showConfirmDialog(null, "You have reached the goal! Do you want play again?",
+            result = JOptionPane.showConfirmDialog(null,
+                    "You have reached the goal! Do you want play again?",
                     "Congratulation", JOptionPane.YES_NO_OPTION);
 
         } else {
-            result = JOptionPane.showConfirmDialog(null, "Game over! Do you want continue?",
+            result = JOptionPane.showConfirmDialog(null,
+                    "Game over! Do you want continue?",
                     "Game over", JOptionPane.YES_NO_OPTION);
         }
         if (result == JOptionPane.OK_OPTION){
@@ -108,7 +110,9 @@ public class ManagerGame implements Constant{
 
     private ItemMap[][] readMap(String fileName) {
         try {
-            URL url = this.getClass().getClassLoader().getResource("com/t3h/daovang/res/maps/" + fileName + ".txt");
+            URL url = this.getClass().getClassLoader().
+                    getResource("com/t3h/daovang/res/maps/" + fileName + ".txt");
+            assert url != null;
             InputStream in = url.openStream();
             BufferedReader reader = new BufferedReader(new ReaderUTF8(in));
             String line = reader.readLine();

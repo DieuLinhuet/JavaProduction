@@ -6,25 +6,25 @@ import java.awt.*;
  * Created by dieulinh on 6/16/17.
  */
 public class Object2D {
-    protected int sizeImg;
-    protected int x;
-    protected int y;
-    protected Image image;
+    int sizeImg;
+    int x;
+    int y;
+    Image image;
 
-    public Object2D(){}
+    Object2D(){}
 
-    public Object2D(int x, int y, Image image, int sizeImg) {
+    Object2D(int x, int y, Image image, int sizeImg) {
         this.x = x;
         this.y = y;
         this.image = image;
         this.sizeImg = sizeImg;
     }
 
-    public int getX() {
+    int getX() {
         return x;
     }
 
-    public int getY() {
+    int getY() {
         return y;
     }
 
@@ -33,8 +33,7 @@ public class Object2D {
     }
 
     Rectangle getRectangle() {
-        Rectangle rectangle = new Rectangle(x, y, sizeImg, sizeImg);
-        return rectangle;
+        return new Rectangle(x, y, sizeImg, sizeImg);
     }
 
 }

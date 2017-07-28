@@ -6,11 +6,11 @@ import java.awt.*;
  * Created by dieulinh on 6/16/17.
  */
 public class ItemMap extends Object2D{
-    protected String imgId;
+    private String imgId;
 
     public ItemMap(){}
 
-    public ItemMap(int x, int y, Image image, int sizeImg, String imgId) {
+    ItemMap(int x, int y, Image image, int sizeImg, String imgId) {
         super(x, y, image, sizeImg);
         this.imgId = imgId;
     }
@@ -19,7 +19,7 @@ public class ItemMap extends Object2D{
         this.imgId = imgId;
     }
 
-    public String getImgId() {
+    String getImgId() {
         return imgId;
     }
 }

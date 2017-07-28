@@ -6,62 +6,62 @@ import java.awt.*;
 /**
  * Created by dieulinh on 6/16/17.
  */
-public class ItemImages {
-    public static final Image GOLD0 = new ImageIcon(ItemImages.class.
+class ItemImages {
+    private static final Image GOLD0 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold0.png")).getImage();
-    public static final Image GOLD1 = new ImageIcon(ItemImages.class.
+    private static final Image GOLD1 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold1.png")).getImage();
-    public static final Image GOLD2 = new ImageIcon(ItemImages.class.
+    private static final Image GOLD2 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold2.png")).getImage();
-    public static final Image GOLD3 = new ImageIcon(ItemImages.class.
+    private static final Image GOLD3 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold3.png")).getImage();
 
-    public static final Image GOLD0X = new ImageIcon(ItemImages.class.
+    private static final Image GOLD0X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold0x.png")).getImage();
-    public static final Image GOLD1X = new ImageIcon(ItemImages.class.
+    private static final Image GOLD1X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold1x.png")).getImage();
-    public static final Image GOLD2X = new ImageIcon(ItemImages.class.
+    private static final Image GOLD2X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold2x.png")).getImage();
-    public static final Image GOLD3X = new ImageIcon(ItemImages.class.
+    private static final Image GOLD3X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/gold3x.png")).getImage();
 
-    public static final Image STONE0 = new ImageIcon(ItemImages.class.
+    private static final Image STONE0 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/stone0.png")).getImage();
-    public static final Image STONE1 = new ImageIcon(ItemImages.class.
+    private static final Image STONE1 = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/stone1.png")).getImage();
 
-    public static final Image STONE0X = new ImageIcon(ItemImages.class.
+    private static final Image STONE0X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/stone0x.png")).getImage();
-    public static final Image STONE1X = new ImageIcon(ItemImages.class.
+    private static final Image STONE1X = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/stone1x.png")).getImage();
 
-    public static final Image BAG = new ImageIcon(ItemImages.class.
+    private static final Image BAG = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/bag.png")).getImage();
-    public static final Image BAGX = new ImageIcon(ItemImages.class.
+    private static final Image BAGX = new ImageIcon(ItemImages.class.
             getResource("/com/t3h/daovang/res/images/bagx.png")).getImage();
 
-    public static final String GOLD_ID0 = "10";
-    public static final String GOLD_ID1 = "11";
-    public static final String GOLD_ID2 = "12";
-    public static final String GOLD_ID3 = "13";
+    static final String GOLD_ID0 = "10";
+    static final String GOLD_ID1 = "11";
+    static final String GOLD_ID2 = "12";
+    static final String GOLD_ID3 = "13";
 
-    public static final String STONE_ID0 = "20";
-    public static final String STONE_ID1 = "21";
+    static final String STONE_ID0 = "20";
+    static final String STONE_ID1 = "21";
 
-    public static final String BAG_ID = "30";
+    private static final String BAG_ID = "30";
 
-    public static final String GOLD_IDOX = "10x";
-    public static final String GOLD_ID1X = "11x";
-    public static final String GOLD_ID2X = "12x";
-    public static final String GOLD_ID3X = "13x";
+    static final String GOLD_IDOX = "10x";
+    static final String GOLD_ID1X = "11x";
+    static final String GOLD_ID2X = "12x";
+    static final String GOLD_ID3X = "13x";
 
-    public static final String STONE_ID0X = "20x";
-    public static final String STONE_ID1X = "21x";
+    static final String STONE_ID0X = "20x";
+    static final String STONE_ID1X = "21x";
 
-    public static final String BAG_IDX = "30x";
+    static final String BAG_IDX = "30x";
 
 
-    public static Image getImage(String id) {
+    static Image getImage(String id) {
         switch (id) {
             case GOLD_ID0:
                 return GOLD0;

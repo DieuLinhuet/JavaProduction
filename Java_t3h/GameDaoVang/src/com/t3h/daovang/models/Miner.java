@@ -9,14 +9,14 @@ import java.awt.*;
  * Created by dieulinh on 6/16/17.
  */
 public class Miner extends Object2D {
-    public static final Image[] images0 = new Image[]{
+    static final Image[] images0 = new Image[]{
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner00.png")).getImage(),
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner01.png")).getImage(),
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner02.png")).getImage(),
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner03.png")).getImage()
     };
 
-    public static final Image[] images1 = new Image[]{
+    static final Image[] images1 = new Image[]{
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner10.png")).getImage(),
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner11.png")).getImage(),
             new ImageIcon(Miner.class.getResource("/com/t3h/daovang/res/images/miner12.png")).getImage(),
@@ -53,7 +53,7 @@ public class Miner extends Object2D {
     };
 
 
-    public Miner() {
+    Miner() {
         image = images0[0];
         sizeImg = Constant.SIZE_ITEM*6;
         x = Constant.SIZE_ITEM * 29;

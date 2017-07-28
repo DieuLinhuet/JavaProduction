@@ -11,11 +11,10 @@ import static com.t3h.daovang.Constant.WIDTH_FRAME;
  * Created by dieulinh on 6/16/17.
  */
 public class GUI extends JFrame implements Constant{
-    private MainGamePanel gamePanel;
 
     public GUI(){
         initFrame();
-        gamePanel = new MainGamePanel();
+        MainGamePanel gamePanel = new MainGamePanel();
         add(gamePanel);
 
     }
@@ -26,6 +25,6 @@ public class GUI extends JFrame implements Constant{
         setLayout(new CardLayout());
         setResizable(false);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
