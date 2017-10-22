@@ -1,5 +1,9 @@
 package com.dieulinh.crytography;
 
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by DieuLinh on 12/09/2017 at 06:34.
  */
@@ -8,11 +12,11 @@ public interface Mathematics {
      * Input: co so b, so tu nhien num ( co so 10)
      * Output: chuyen num tu co so 10 sang co so b
      */
-    static String baseBExpention(int b, int num) {
+    static String baseBExpention(int b, long num) {
         String result = "";
-        int q = num;
+        long q = num;
         while (q != 0) {
-            int ak = q % b;
+            long ak = q % b;
             q = q / b;
             result = ak + result;
         }
@@ -87,21 +91,29 @@ public interface Mathematics {
         return result;
     }
 
-    static int modularExponentitation(int b, int m) {
-        int result = 1;
-        int power = b % m;
-        String binaryNum = baseBExpention(2, b);
+//    Tính b^n mod m
+    static long modularExponentitation(long b, long n, long m) {
+        long result = 1;
+        BigInteger modular = new BigInteger(m+"");
+        long power = b % m;
+        String binaryNum = baseBExpention(2, n);
         int len = binaryNum.length();
         for (int i = len - 1; i >= 0; i--) {
+            BigInteger bigInteger = new BigInteger(power+"");
             int ai = Integer.parseInt(String.valueOf(binaryNum.charAt(i)));
             if (ai == 1) {
-                result = (result * power) % m;
+                result = Long.parseLong(bigInteger.multiply((new BigInteger(result+""))).mod(modular).toString());
+
             }
-            power = (power * power) % m;
+            power = Long.parseLong(bigInteger.multiply(bigInteger).mod(modular).toString());
         }
         return result;
     }
 
+    /**
+     * num1 >= 0
+     * num2 >= 0
+     */
     static int gcd(int num1, int num2) {
         if (num1 > num2) {
             return gcd(num2, num1 - num2);
@@ -113,29 +125,92 @@ public interface Mathematics {
         }
     }
 
-    static int inverseOfModular(int a, int m) {
-        int a0 = m;
-        int b0 = a;
-        int t = 1;
-        int t0 = 0;
-        int s0 = 1;
-        int s = 0;
-        int q = a0 / b0;
-        int r = a0 - q * b0;
-        while (r > 0) {
-            int temp = t0 - q * t;
+//    Tính a^-1 mod m
+    static long inverseOfModular(long a, long m) {
+        long m0 = m;
+        long a0 = a;
+        long t0 = 0;
+        long t = 1;
+        long q = m0 / a0;
+        long r = m0 - q* a0;
+        while (r > 0){
+            long temp = (t0 - q*t) % m;
             t0 = t;
             t = temp;
-            temp = s0 - q * s;
-            s0 = s;
-            s = temp;
-            a0 = b0;
-            b0 = r;
-            q = a0 / b0;
-            r = a0 - q * b0;
+            m0 = a0;
+            a0 = r;
+            q = m0 / a0;
+            r = m0 - a0*q;
         }
-        return t % m;
+        if (a0 != 1){
+            System.out.println( a + " has no inverse modulo " + m);
+            return -1;
+        }
+        if (t < 0){
+            return m + t;
+        }
+        return t;
     }
 
+    static int findPrimitiveElement(long a){
+        ArrayList<Integer> nums = new ArrayList<>();
+        for (int i = 1; i < a; i++){
+            if (a % i == 0){
+                nums.add(i);
+            }
+        }
+        int sizeOfNums = nums.size();
+        for (int i = 0; i < sizeOfNums; i++){
+            for (int j = i; j < sizeOfNums; j++){
+                if (Math.pow(nums.get(i), nums.get(j)) % a == (a-1)){
+                    return i;
+                }
+            }
+        }
+        return 1;
+    }
+
+    static boolean isPrime(long num){
+        for (int i = 2; i < Math.sqrt(num); i++){
+            if (num % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+//    Shanks Algorithm: Tính a: alpha^a = beta (mod p)
+    static long shanks(long p, long alpha, long beta){
+        long m = (long) (Math.sqrt(p-1) + 1);
+        List<Long> list1 = new ArrayList<>();
+        List<Long> list2 = new ArrayList<>();
+        long alpha1 = modularExponentitation(alpha, m, p);
+        for (int i = 0; i < m-1; i++){
+            long temp = modularExponentitation(alpha1, i, p);
+            list1.add(temp);
+
+            long temp2 = inverseOfModular(alpha, p);
+            long temp3 = modularExponentitation(temp2, i, p);
+            long temp4 = modularExponentitation(beta*temp3, 1, p);
+            list2.add(temp4);
+        }
+        for (int i = 0; i < m-1; i++){
+            if (list2.contains(list1.get(i))){
+                int j = list2.indexOf(list1.get(i));
+                return modularExponentitation((m*i+j), 1, p-1);
+            }
+        }
+        return -1;
+    }
+
+//
+    static List<Long> pohigHellman(long n, long alpha, long beta, long c){
+        List<Long> result = new ArrayList<>();
+        long j = 0;
+        long bi = beta;
+        while (j <= c - 1){
+        }
+        return result;
+    }
 
 }
